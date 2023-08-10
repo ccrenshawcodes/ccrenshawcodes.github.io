@@ -1,0 +1,5 @@
+dark blue - #8EDDE1
+light blue/main - #A8EAF0
+purple - #959BDA
+pink - #DE91B9
+gold - #F7DC64
