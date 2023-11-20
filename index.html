@@ -8,44 +8,60 @@
 </head>
 <body>
     <div class="wrapper">
+        <nav>
+            <div class="about tab"><a href="#about-me">about</a></div>
+            <div class="projects tab"><a href="#portfolio">projects</a></div>
+            <div class="contact-me tab"><a href="#contact-me">contact</a></div>
+        </nav>
         <div class="page-header">
             <div class="blurb">
-                <h1>catherine crenshaw</h1>
-                <h3>self-taught javascript developer. professional troubleshooter. pineapple-on-pizza enthusiast.</h3>
+                <h1 class="my-name">catherine crenshaw</h1>
+                <h3>front-end developer. professional troubleshooter. pineapple-on-pizza enthusiast.</h3>
             </div>
-            <div class="contact">
-                <img class="github logo" src="github-mark.png" alt="github logo" />
-                <img class="linkedin logo" src="LI-In-Bug.png" alt="linkedin logo" />
-                <img class="email logo" src="211660_email_icon.png" alt="email icon" />
-            </div>
+
         </div>
         <article>
-            <div class="about-me">
-                <h2>about me</h2>
+            <div class="about-me" id="about-me">
+                <h2>hi! I'm Catherine.</h2>
                 <p>
-                    Welcome to my portfolio!
                     I am a self-taught Javascript developer looking to break into the software development scene.
                     Please feel free to poke around my projects and leave me feedback by contacting me at the links below.
                 </p>
             </div>
-            <div class="portfolio">
+            <div class="portfolio" id="portfolio">
                 <h2>projects</h2>
-                <div class="portfolio-body">
-                    <div class="project library">
-                        <img src="library.jpg" alt="A screenshot of a library project" />
-                    </div>
-                    <div class="project ttt">
-                        <img src="tictactoe.jpg" alt="screenshot of a tictactoe game" />
-                    </div>
-                    <div class="project dash">
-                        <img src="admindash.jpg" alt="screenshot of an admin dashboard" />
-                    </div>
+                <div class="to-do item">
+                    <h3>To-Do List</h3>
+                    <p>A simple to-do list app that persistently stores information in localStorage.</p>
+                        <a href="https://github.com/ccrenshawcodes/odin-todo-list" target="_blank">Code</a>
+                        <a href="https://ccrenshawcodes.github.io/odin-todo-list/" target="_blank">Page</a>
+                </div>
+                <div class="weather item">
+                    <h3>Weather App</h3>
+                    <p>A basic weather app that makes use of WeatherAPI and changes appearance based on current conditions.</p>
+                        <a href="https://github.com/ccrenshawcodes/odin-weather-app" target="_blank">Code</a>
+                        <a href="https://ccrenshawcodes.github.io/odin-weather-app/" target="_blank">Page</a>
+                </div>
+                <div class="library item">
+                    <h3>Library</h3>
+                    <p>An exercise in storing, reading and changing information in objects.</p>
+                        <a href="https://github.com/ccrenshawcodes/odin-library" target="_blank">Code</a>
+                        <a href="https://ccrenshawcodes.github.io/odin-library/" target="_blank">Page</a>
+                </div>
+                <div class="admin item">
+                    <h3>Admin Dashboard</h3>
+                    <p>An exercise in CSS Grid.</p>
+                        <a href="https://github.com/ccrenshawcodes/odin-admin-dash" target="_blank">Code</a>
+                        <a href="https://ccrenshawcodes.github.io/odin-admin-dash/" target="_blank">Page</a>
                 </div>
             </div>
+            <div class="contact" id="contact-me">
+                <h2>let's chat</h2>
+                <p>I want to hear from you! Contact me on:</p>
+                <a href="https://github.com/ccrenshawcodes" target="_blank"><img class="github logo" src="github-mark.png" alt="github logo" /></a>
+                <a href="https://www.linkedin.com/in/catherine-ann/" target="_blank"><img class="linkedin logo" src="LI-In-Bug.png" alt="linkedin logo" /></a>
+            </div>
         </article>
-        <div class="footer">
-            <!-- <span>View this page's source code on GitHub</span> -->
-        </div>
     </div>
 
 <script src="app.js"></script>
